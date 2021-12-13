@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./nav";
 import Footer from "./footer";
-import Link from "next/Link";
+import Link from "next/link";
 import RamadanSuccessfulFast from "./img/RamadanSuccessfulFast.jpg";
 import RamadanTafseer27 from "./img/RamadanTafseer27.jpg";
 import EidAlFitr from "./img/EidAlFitrKhutbah.jpg";
