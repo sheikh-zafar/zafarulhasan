@@ -93,70 +93,70 @@ export default class Home extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 col-md-5 col-sm-10 col-xs-12 ">
-                <iframe
-                  title="ahle hadith"
-                  src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%232e856e&amp;ctz=Asia%2FDubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;mode=AGENDA"
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
+              <iframe
+                title="ahle hadith"
+                src="https://calendar.google.com/calendar/embed?height=250&amp;wkst=1&amp;bgcolor=%232e856e&amp;ctz=Asia%2FDubai&amp;src=M2I4cG9vczFic2lwdGhnYnA5NWhjYnZuaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;mode=AGENDA"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                scrolling="no"
+              ></iframe>
             </div>
             <div className=" col-lg-7 col-md-7 col-sm-10 col-xs-12">
-                <iframe
-                  title="zafarulhasan"
-                  src="https://mixlr.com/zafarulhasan/embed"
-                  width="100%"
-                  scrolling="no"
-                  frameBorder="no"
-                  marginHeight="0"
-                  marginWidth="0"
-                ></iframe>
+              <iframe
+                title="zafarulhasan"
+                src="https://mixlr.com/zafarulhasan/embed"
+                width="100%"
+                scrolling="no"
+                frameBorder="no"
+                marginHeight="0"
+                marginWidth="0"
+              ></iframe>
             </div>
           </div>
         </div>
         {/*Youtube, Image ,Showreel*/}
         <div className="container py-5 mx-auto">
-            <div
-              className="col-md-12 bg"
-              style={{
-                color: "#5c4033",
-                fontFamily: "Pacifico family",
-                fontSize: "15px",
-                boxShadow:
-                  "0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9)",
-              }}
-            >
-              <div className="row">
-                <div className="col-6 col-lg-3 col-md-6 col-sm-6">
-                  <div className="container py-3">
-                    <a
-                      href="https://calendar.google.com/calendar/u/0/r/month?tab=wc&pli=1"
-                      role="button"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn"
-                      style={{
-                        backgroundColor: "#0C3823",
-                        color: "beige",
-                        fontFamily: "Righteous",
-                      }}
-                    >
-                      <i className="fa fa-calendar" aria-hidden="true"></i>{" "}
-                      Calendar
-                    </a>
-                    <div
-                      className="container  px-0 pt-1"
-                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
-                    >
-                      Complete Lecture Schedule
-                    </div>
+          <div
+            className="col-md-12 bg"
+            style={{
+              color: "#5c4033",
+              fontFamily: "Pacifico family",
+              fontSize: "15px",
+              boxShadow:
+                "0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9)",
+            }}
+          >
+            <div className="row">
+              <div className="col-6 col-lg-3 col-md-6 col-sm-6">
+                <div className="container py-3">
+                  <a
+                    href="https://calendar.google.com/calendar/u/0/r/month?tab=wc&pli=1"
+                    role="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn"
+                    style={{
+                      backgroundColor: "#0C3823",
+                      color: "beige",
+                      fontFamily: "Righteous",
+                    }}
+                  >
+                    <i className="fa fa-calendar" aria-hidden="true"></i>{" "}
+                    Calendar
+                  </a>
+                  <div
+                    className="container  px-0 pt-1"
+                    style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
+                  >
+                    Complete Lecture Schedule
                   </div>
                 </div>
-                <div className="col-6 col-lg-3 col-md-6 col-sm-6">
-                  <div className="container py-3">
+              </div>
+              <div className="col-6 col-lg-3 col-md-6 col-sm-6">
+                <div className="container py-3">
+                  <Link href="/sheikh-zafar-ul-hasan-madani-links">
                     <a
-                      href="/sheikh-zafar-ul-hasan-madani-links"
                       title="salaf"
                       role="button"
                       target="_blank"
@@ -171,68 +171,69 @@ export default class Home extends Component {
                       <i className="fa fa-telegram" aria-hidden="true"></i>{" "}
                       Updates
                     </a>
-                    <div
-                      className="container  px-0 pt-1"
-                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
-                    >
-                      Get Updates of Duroos
-                    </div>
+                  </Link>
+
+                  <div
+                    className="container  px-0 pt-1"
+                    style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
+                  >
+                    Get Updates of Duroos
                   </div>
                 </div>
-                <div className="col-6 col-lg-3 col-md-6 col-sm-6">
-                  <div className="container py-4">
-                    <a
-                      href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
-                      title="zafarul hasan madani"
-                      role="button"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn"
-                      style={{
-                        backgroundColor: "#0C3823",
-                        color: "beige",
-                        fontFamily: "Righteous",
-                      }}
-                    >
-                      <i className="fa fa-youtube" aria-hidden="true"></i>{" "}
-                      YouTube
-                    </a>
-                    <div
-                      className="container  pt-1"
-                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
-                    >
-                      YouTube Channel
-                    </div>
+              </div>
+              <div className="col-6 col-lg-3 col-md-6 col-sm-6">
+                <div className="container py-4">
+                  <a
+                    href="https://www.youtube.com/channel/UC2zD7wY_3TCGCyA9Cy_Nu9w"
+                    title="zafarul hasan madani"
+                    role="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn"
+                    style={{
+                      backgroundColor: "#0C3823",
+                      color: "beige",
+                      fontFamily: "Righteous",
+                    }}
+                  >
+                    <i className="fa fa-youtube" aria-hidden="true"></i> YouTube
+                  </a>
+                  <div
+                    className="container  pt-1"
+                    style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
+                  >
+                    YouTube Channel
                   </div>
                 </div>
-                <div className="col-6 col-lg-3 col-md-6 col-sm-6">
-                  <div className="container py-3">
-                    <a
-                      href="https://mixlr.com/zafarulhasan/showreel/"
-                      title="salaf"
-                      role="button"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn"
-                      style={{
-                        backgroundColor: "#0C3823",
-                        color: "beige",
-                        fontFamily: "Righteous",
-                      }}
-                    >
-                      <i className="fa fa-headphones" aria-hidden="true"></i>{" "}
-                      Mixlr Show Reel
-                    </a>
-                    <div
-                      className="container  px-0 pt-1"
-                      style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
-                    >
-                      Catch up on missed duroos
-                    </div>
+              </div>
+              <div className="col-6 col-lg-3 col-md-6 col-sm-6">
+                <div className="container py-3">
+                  <a
+                    href="https://mixlr.com/zafarulhasan/showreel/"
+                    title="salaf"
+                    role="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn"
+                    style={{
+                      backgroundColor: "#0C3823",
+                      color: "beige",
+                      fontFamily: "Righteous",
+                    }}
+                  >
+                    <i className="fa fa-headphones" aria-hidden="true"></i>{" "}
+                    Mixlr Show Reel
+                  </a>
+                  <div
+                    className="container  px-0 pt-1"
+                    style={{ fontFamily: "Fredoka One", fontSize: "15px" }}
+                  >
+                    Catch up on missed duroos
                   </div>
                 </div>
               </div>
             </div>
+          </div>
         </div>
         {/*Banner1*/}
         <section className="mosque">
@@ -241,12 +242,7 @@ export default class Home extends Component {
               <div className="container py-4 ">
                 <div className="row justify-content-center">
                   <div className="col-md-10 d-flex justify-content-center">
-                    <Image
-                      src={mosque}
-                      width={600}
-                      height={200}
-                      alt="salaf"
-                    />
+                    <Image src={mosque} width={600} height={200} alt="salaf" />
                   </div>
                 </div>
                 <div className="container text-center pt-4">
@@ -313,12 +309,7 @@ export default class Home extends Component {
               <div className="container py-4 ">
                 <div className="row justify-content-center">
                   <div className="col-md-10 d-flex justify-content-center">
-                    <Image
-                      src={Covid}
-                      width={600}
-                      height={200}
-                      alt="manhaj"
-                    />
+                    <Image src={Covid} width={600} height={200} alt="manhaj" />
                   </div>
                 </div>
                 <div className="container pt-4">
@@ -461,12 +452,7 @@ export default class Home extends Component {
               <div className="container py-4">
                 <div className="row justify-content-center">
                   <div className="col-md-10 d-flex justify-content-center">
-                    <Image
-                      src={bam2}
-                      width={600}
-                      height={200}
-                      alt="fiqh"
-                    />
+                    <Image src={bam2} width={600} height={200} alt="fiqh" />
                   </div>
                 </div>
                 <div className="container pt-4">
