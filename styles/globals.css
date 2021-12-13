@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins",-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+body {
+  background-color: #0c3823;
+  color: beige;
+}
+* {
+  scroll-behavior: smooth;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border-right: none;
+  border-left: none;
+}
+.heading-name {
+  font-size: 35px;
+}
+nav {
+  font-family: "Poppins", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  border-bottom: 2px solid #000000;
+}
+li .nav-link {
+  font-size: 16px;
+  color: #5c4033;
+}
+li .nav-link:hover {
+  color: beige;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+Link .nav-link {
+  font-size: 2rem;
+  color: #5c4033;
+  border-right: #5c4033 dotted;
+}
+
+Link .nav-link:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+.navbar-color {
+  background: url("../pages/img/beigebg.jpeg");
+}
+.bg {
+  background: url("../pages/img/beigebg.jpeg");
+}
+.homeYoutube {
+  height: 50px;
+  width: 50px;
+}
+.heading-name {
+  font-size: 30px;
+}
+.embed-section {
+  margin-top: 25px;
+}
+.mosque {
+  margin-top: 25px;
+  background-color: #0c3823;
+}
+.mixlr-section {
+  height: 215px;
+  background: url("../pages/img/beigebg.jpeg");
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+.telegram-section {
+  background: url("../pages/img/beigebg.jpeg");
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+.latest-section {
+  height: 215px;
+  background: url("../pages/img/beigebg.jpeg");
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.mixlr-img-section {
+  height: 215px;
+  background: url("../pages/img/beigebg.jpeg");
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+.calendar {
+  height: 215px;
+}
+.custom-calendar {
+  color: #5c4033;
+  height: 80%;
+}
+.mixlr {
+  background-color: beige;
+  height: 215px;
+}
+img .logo {
+  height: 50px;
+  width: 50px;
+}
+
+.display-head {
+  margin-top: 25px;
+  font-family: "Potta One", sans-serif;
+  color: beige;
+  font-size: 30px;
+}
+.display-title {
+  font-family: "Fredoka One", sans-serif;
+  color: beige;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.displayimg {
+  height: 215px;
+  width: 1000px;
+  border: 2px #5c4033;
+}
+.audio-display-head {
+  margin-top: 25px;
+  font-family: "Amiri", sans-serif;
+  font-size: 40px;
+}
+.rounded-links {
+  border: 9px solid #5c4033;
+  height: 9rem;
+  width: 9rem;
+  background-color: beige;
+  background-image: url("../pages/img/beigebg.jpeg");
+}
+
+a .rounded-headname {
+  font-family: "Righteous", sans-serif;
+  color: beige;
+  font-size: 1.7rem;
+}
+a .rounded-headname:hover {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+.btn {
+  width: 170px;
+}
+.btn-cal {
+width: 100%;
+background-color: beige;
+font-family: "Poppins";
+border-radius: 5px;
+font-size: 20px;
+font-weight: 500;
+height: 49px;
+border: 1px solid #5c4033;
+}
+.card-header {
+  font-family: "Tajawal", sans-serif;
+  font-size: 30px;
+}
+.card {
+  color: #5c4033;
+  background-image: url("../pages/img/beigebg.jpeg");
+}
+
+.caption {
+  font-size: 30px;
+}
+.iframe {
+  width: 1200px;
+}
+
+.aboutheader {
+  font-family: "Langar", sans-serif;
+  text-transform: uppercase;
+  color: beige;
+  text-shadow: beige;
+}
+.about {
+  font-size: 20px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.orderlist {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #5c4033;
+  text-decoration: underline;
+}
+.mixlricon {
+  height: 40px;
+  width: 40px;
+}
+.mixlrtext {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  color: #5c4033;
+  padding-top: 10px;
+}
+.icon-bar {
+  display: none;
+}
+.jumbotron {
+  background-image: url("../pages/img/beigebg.jpeg");
+  width: 500px;
+  height: 350px;
+  text-align: center;
+  color: #5c4033;
+}
+.jumbotron .display-4 {
+  font-family: "Potta One", sans-serif;
+}
+.accordion-flush {
+  background-color: beige;
+}
+h2 .accordion-header {
+  color: #5c4033;
+}
+.accordion-body {
+  background-image: url("../pages/img/beigebg.jpeg");
+}
+
+.accordion-button {
+  background-color: beige;
+  color: #5c4033;
+  font-size: 2rem;
+  font-family: "Patua One", sans-serif;
+}
+
+.accordion-collapse .collapse {
+  background-color: beige;
+}
+.accordion-flush {
+  background-color: beige;
+}
+.paddingVideo {
+  padding-left: 30px;
+}
+.mausamiyatmargin {
+  margin-right: 40vh;
+  margin-left: 40vh;
+}
+.marginSisterPhone {
+  display: flex;
+  justify-content: end;
+}
+table.table-bordered {
+  border: 5px solid #5c4033;
+}
+
+.tableBg {
+  background: url("../pages/img/beigebg.jpeg");
+}
+.wagroup {
+  height: 120px;
+  width: 120px;
+}
+.tableButton {
+  height: 65px;
+  background-color: #0c3823;
+  color: beige;
+  font-size: 15px;
+  font-family: "Righteous";
+}
+.marquee {
+  height: 50px;
+  background: #fefefe;
+  font-size: 16px;
+  color: red;
+}
+
+.marquee p {
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: scroll-left 50s linear infinite;
+  -webkit-animation: scroll-left 50s linear infinite;
+  animation: scroll-left 50s linear infinite;
+}
+@media (min-width: 1200px) {
+}
+@media (max-width: 991.98px) {
+  .latest-section {
+    height: 215px;
+  }
+  .tableButton {
+    height: 70px;
+  }
+}
+
+@media (max-width: 768.98px) {
+  .heading-name {
+    font-size: 25px;
+  }
+  .heading-lead {
+    padding-top: 0%;
+    font-size: 15px;
+  }
+  li .nav-link {
+    font-size: 1.6rem;
+    border-right: none;
+  }
+  .caption {
+    font-size: 40px;
+  }
+  .responsiveCal {
+    position: relative;
+    padding-bottom: 100%;
+  }
+  .subscribe-circle {
+    border: 5px solid #5c4033;
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .responsiveCal iframe {
+    position: absolute;
+  }
+  .mixlricon {
+    height: 25px;
+    width: 25px;
+  }
+  .mixlrtext {
+    font-size: 20px;
+  }
+  .mausamiyatmargin {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .paddingVideo {
+    padding-left: 0%;
+  }
+  .marginJummahPhone {
+    margin-left: 34px;
+  }
+  .marginTafseerPhone {
+    margin-left: 18px;
+  }
+  .marginArkanPhone {
+    margin-left: 18px;
+  }
+  .marginTaweelPhone {
+    margin-left: 22px;
+  }
+  .marginMukhtasarPhone {
+    margin-left: 22px;
+  }
+  .tableBg {
+    margin-right: 12px;
+  }
+  .tableButton {
+    height: 70px;
+    width: 150px;
+  }
+  .carousel-section {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .btn-cal {
+    font-size: 16px;
+    font-weight: 500;
+    height: 30px;
+    padding-top: 1px;
+    }
+}
+
+@media (max-width: 575.98px) {
+  .jumbotron {
+    width: 300px;
+    height: 350px;
+  }
+  .card-header {
+    font-size: 35px;
+  }
+  .heading-name {
+    font-size: 20px;
+  }
+  .heading-lead {
+    padding-top: 0%;
+    font-size: 15px;
+  }
+  li .nav-link {
+    font-size: 1.4rem;
+    border-right: none;
+  }
+  #menu {
+    display: none;
+  }
+  .tableButton {
+    height: 50px;
+    width: 84px;
+    font-size: 11px;
+  }
+  .card {
+    font-size: 15px;
+    margin: 3px;
+  }
+  .figure-caption {
+    color: beige;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .caption {
+    font-size: 10px;
+  }
+  .responsiveCal {
+    position: relative;
+    padding-bottom: 100%;
+  }
+  .aboutheader {
+    font-size: 30px;
+  }
+  .about {
+    font-size: 16px;
+    margin: 5px;
+  }
+  .mixlrtext {
+    font-size: 10px;
+  }
+  .mixlricon {
+    height: 30px;
+    width: 30px;
+  }
+  .mausamiyatmargin {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .paddingVideo {
+    padding-left: 0%;
+  }
+  .ayah {
+    display: none;
+  }
+  .marginJummahPhone {
+    margin-left: 34px;
+  }
+  .marginTafseerPhone {
+    margin-left: 18px;
+  }
+  .marginArkanPhone {
+    margin-left: 18px;
+  }
+  .marginTaweelPhone {
+    margin-left: 28px;
+  }
+  .marginMukhtasarPhone {
+    margin-left: 28px;
+  }
+  .marginAamPhone {
+    margin-left: 5px;
+  }
+  .marginSisterPhone {
+    margin-left: -53px;
+  }
+  .marginAhlulPhone {
+    padding-left: 25px;
+  }
+  .carousel-control-prev-icon {
+    display: none;
+  }
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .carousel-section {
+    width: 100%;
+  }
+  .mobile-first {
+    vertical-align: center;
+    left: 50%;
+    right: 50%;
+  }
+  .btn {
+    width: 100px;
+  }
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes scroll-left {
+  0% {
+      -moz-transform: translateX(100%);
+  }
+  100% {
+      -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scroll-left {
+  0% {
+      -webkit-transform: translateX(100%);
+  }
+  100% {
+      -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+  }
+  100% {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+  }
+}
+
