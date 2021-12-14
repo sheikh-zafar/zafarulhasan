@@ -2,15 +2,15 @@ import React, { Component } from "react";
 import Navbar from "./nav";
 import Footer from "./footer";
 import Link from "next/link";
-import Jummuah from "./img/jummaicon.jpg";
-import tafseer from "./img/tafseericon.jpg";
-import Moon from "./img/moon.jpg";
-import Arkan from "./img/arkan.jpg";
-import Taweel from "./img/taweel.jpeg";
-import Mukhtasar from "./img/mukhtasar.jpeg";
-import Aam from "./img/aam.jpg";
-import SisterSection from "./img/sistersection.jpg";
-import AhleHadith from "./img/ahlehadith.jpg";
+import Jummuah from "../public/img/jummaicon.jpg";
+import tafseer from "../public/img/tafseericon.jpg";
+import Moon from "../public/img/moon.jpg";
+import Arkan from "../public/img/arkan.jpg";
+import Taweel from "../public/img/taweel.jpeg";
+import Mukhtasar from "../public/img/mukhtasar.jpeg";
+import Aam from "../public/img/aam.jpg";
+import SisterSection from "../public/img/sistersection.jpg";
+import AhleHadith from "../public/img/ahlehadith.jpg";
 import Image from "next/image";
 export default class audio extends Component {
   handleClick() {

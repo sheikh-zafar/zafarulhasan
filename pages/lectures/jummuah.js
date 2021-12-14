@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import jummuahkhutbah from "../img/jummuahkhutbah.jpg";
+import jummuahkhutbah from "../../public/img/jummuahkhutbah.jpg";
 import Navbar from "../nav";
 import Footer from "../footer";
-import mixlr from "../img/mixlr.png";
 import Image from "next/image";
 export default class jummuah extends Component {
   render() {

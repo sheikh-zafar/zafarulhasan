@@ -2,16 +2,16 @@
 import React, { Component } from "react";
 import Navbar from "./nav";
 import Footer from "./footer";
-import bam2 from "./img/bulugh.jpg";
-import shamail2 from "./img/shamail2.jpg";
-import sharhsunnah3 from "./img/sharhsunnah3.jpg";
-import mosque from "./img/mosque.jpg";
-import Covid from "./img/Covid.jpg";
-import Baqarah from "./img/baqarah.jpg";
-import Sunday from "./img/sunday.jpg";
-import monday from "./img/monday.jpg";
-import wednesday from "./img/wednesday.jpg";
-import saturday from "./img/sunday.jpg";
+import bam2 from "../public/img/bulugh.jpg";
+import shamail2 from "../public/img/shamail2.jpg";
+import sharhsunnah3 from "../public/img/sharhsunnah3.jpg";
+import mosque from "../public/img/mosque.jpg";
+import Covid from "../public/img/Covid.jpg";
+import Baqarah from "../public/img/baqarah.jpg";
+import Sunday from "../public/img/sunday.jpg";
+import monday from "../public/img/monday.jpg";
+import wednesday from "../public/img/wednesday.jpg";
+import saturday from "../public/img/sunday.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -614,9 +614,9 @@ export default class Home extends Component {
                             </th>
                           </tr>
                         </thead>
-                        <tbody>
-                          <tr className="tableBg">
-                            <th scope="col" className="tableBg">
+                        <tbody >
+                          <tr className="tablebg">
+                            <th scope="col">
                               <Link href="/Ramadan-1442-2021">
                                 <a
                                   role="button"

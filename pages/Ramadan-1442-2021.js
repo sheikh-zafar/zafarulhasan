@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Navbar from "./nav";
 import Footer from "./footer";
 import Link from "next/link";
-import RamadanSuccessfulFast from "./img/RamadanSuccessfulFast.jpg";
-import RamadanTafseer27 from "./img/RamadanTafseer27.jpg";
-import EidAlFitr from "./img/EidAlFitrKhutbah.jpg";
-import Eid2021 from "./img/eid2021.jpg";
+import RamadanSuccessfulFast from "../public/img/RamadanSuccessfulFast.jpg";
+import RamadanTafseer27 from "../public/img/RamadanTafseer27.jpg";
+import EidAlFitr from "../public/img/EidAlFitrKhutbah.jpg";
+import Eid2021 from "../public/img/eid2021.jpg";
 import Image from "next/image";
 
 export default class Ramadan2021 extends Component {

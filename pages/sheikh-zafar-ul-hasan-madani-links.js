@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./nav";
 import Footer from "./footer";
-import Logo from "./img/logo192.png";
+import Logo from "../public/img/logo192.png";
 import Image from "next/image";
 
 export default class AllLinks extends Component {

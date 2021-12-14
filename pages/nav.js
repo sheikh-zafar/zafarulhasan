@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import SheikhName from "./img/sheikhname.png";
-import QuranHadith1Arabic from "./img/Quran&Hadith1Arabic.png";
-import QuranHadith1Urdu from "./img/Quran&Hadith1Urdu.png";
-import QuranHadith1English from "./img/Quran&Hadith1English.png";
-import QuranHadith2Arabic from "./img/Quran&Hadith2Arabic.png";
-import QuranHadith2Urdu from "./img/Quran&Hadith2Urdu.png";
-import QuranHadith2English from "./img/Quran&Hadith2English.png";
+import SheikhName from "../public/img/sheikhname.png";
+import QuranHadith1Arabic from "../public/img/Quran&Hadith1Arabic.png";
+import QuranHadith1Urdu from "../public/img/Quran&Hadith1Urdu.png";
+import QuranHadith1English from "../public/img/Quran&Hadith1English.png";
+import QuranHadith2Arabic from "../public/img/Quran&Hadith2Arabic.png";
+import QuranHadith2Urdu from "../public/img/Quran&Hadith2Urdu.png";
+import QuranHadith2English from "../public/img/Quran&Hadith2English.png";
 import Link from "next/link";
 import Image from "next/image";
 
