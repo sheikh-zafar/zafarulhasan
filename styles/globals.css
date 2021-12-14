@@ -55,10 +55,10 @@ Link .nav-link:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .navbar-color {
-  background: url("../public/img/beigebg.jpeg");
+  background-image: url("../public/img/beigebg.jpeg");
 }
 .bg {
-  background: url("../public/img/beigebg.jpeg");
+  background-image: url("../public/img/beigebg.jpeg");
 }
 .homeYoutube {
   height: 50px;
@@ -76,18 +76,18 @@ Link .nav-link:hover {
 }
 .mixlr-section {
   height: 215px;
-  background: url("../public/img/beigebg.jpeg");
+  background-image: url("../public/img/beigebg.jpeg");
   margin-top: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .telegram-section {
-  background: url("../public/img/beigebg.jpeg");
+  background-image: url("../public/img/beigebg.jpeg");
   margin-top: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
 .latest-section {
   height: 215px;
-  background: url("../public/img/beigebg.jpeg");
+  background-image: url("../public/img/beigebg.jpeg");
   margin-top: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
   padding-top: 30px;
@@ -95,7 +95,7 @@ Link .nav-link:hover {
 }
 .mixlr-img-section {
   height: 215px;
-  background: url("../public/img/beigebg.jpeg");
+  background-image: url("../public/img/beigebg.jpeg");
   margin-top: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
 }
@@ -276,7 +276,7 @@ table.table-bordered {
 }
 
 .tableBg {
-  background: url("../public/img/beigebg.jpeg");
+  background-image: url("../public/img/beigebg.jpeg");
 }
 .wagroup {
   height: 120px;
