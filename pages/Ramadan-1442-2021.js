@@ -43,28 +43,22 @@ export default class Ramadan2021 extends Component {
                   <div className="carousel-item active">
                     <Image
                       src={EidAlFitr}
-                      className="img-fld"
                       alt="zafar ul hasan madani"
-                      height="400px"
-                      width="100%"
+                      height={500}
                     />
                   </div>
                   <div className="carousel-item ">
                     <Image
                       src={RamadanSuccessfulFast}
-                      className="img-fld"
                       alt="zafar ul hasan madani"
-                      height="400px"
-                      width="100%"
+                      height={500}
                     />
                   </div>
                   <div className="carousel-item">
                     <Image
                       src={RamadanTafseer27}
-                      className="img-fld"
                       alt="zafar ul hasan madani"
-                      height="400px"
-                      width="100%"
+                      height={500}
                     />
                   </div>
                 </div>
@@ -126,7 +120,6 @@ export default class Ramadan2021 extends Component {
                   <div className="rounded-links rounded-circle">
                     <Image
                       src={Eid2021}
-                      className="img-fluid rounded-circle"
                       alt="ahle hadith"
                     />
                   </div>
@@ -166,23 +159,31 @@ export default class Ramadan2021 extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
-                          <i className="fa fa-headphones" aria-hidden="true"></i>{" "}
+                          <i
+                            className="fa fa-headphones"
+                            aria-hidden="true"
+                          ></i>{" "}
                           Listen
                         </a>
                       </div>
                       <div className="col">
-                        <Link
-                          to="/comingsoon"
-                        >
+                        <Link href="/comingsoon">
                           <a
-                          target="_blank"
-                          rel="noreferrer"
-                          className="btn btn btn-lg btn-outline-dark"
-                          style={{
-                            backgroundColor: "#2e856e",
-                            color: "beige",
-                            fontFamily: "Righteous",
-                          }}><i className="fa fa-download" aria-hidden="true"></i>{" "}Download</a>
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn btn btn-lg btn-outline-dark"
+                            style={{
+                              backgroundColor: "#2e856e",
+                              color: "beige",
+                              fontFamily: "Righteous",
+                            }}
+                          >
+                            <i
+                              className="fa fa-download"
+                              aria-hidden="true"
+                            ></i>{" "}
+                            Download
+                          </a>
                         </Link>
                       </div>
                       <div className="col">
@@ -197,7 +198,10 @@ export default class Ramadan2021 extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
-                          <i className="fa fa-video-camera" aria-hidden="true"></i>{" "}
+                          <i
+                            className="fa fa-video-camera"
+                            aria-hidden="true"
+                          ></i>{" "}
                           Watch
                         </a>
                       </div>
@@ -232,7 +236,10 @@ export default class Ramadan2021 extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
-                          <i className="fa fa-headphones" aria-hidden="true"></i>{" "}
+                          <i
+                            className="fa fa-headphones"
+                            aria-hidden="true"
+                          ></i>{" "}
                           Listen
                         </a>
                       </div>
@@ -265,7 +272,10 @@ export default class Ramadan2021 extends Component {
                             fontFamily: "Righteous",
                           }}
                         >
-                          <i className="fa fa-video-camera" aria-hidden="true"></i>{" "}
+                          <i
+                            className="fa fa-video-camera"
+                            aria-hidden="true"
+                          ></i>{" "}
                           Watch
                         </a>
                       </div>
